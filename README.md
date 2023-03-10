@@ -6,6 +6,12 @@ Program Searching Aditya Dinata
 
 Program ini adalah program untuk mencari indeks dari beberapa elemen yang terdapat dalam sebuah list menggunakan dua jenis algoritma pencarian, yaitu Jump Search dan Fibonacci Search. List yang digunakan dalam program ini adalah sebagai berikut: ["Arsel", "Avivah", "Daiva", ["Wahyu", "Wibi"]].
 
+Program ini menggunakan dua metode searching yaitu Jump Search dan Fibonacci Search.
+
+Pertama, program akan menampilkan daftar data yang akan dicari indeksnya yaitu Arsel, Avivah, Daiva, Wahyu, dan Wibi. Kemudian pengguna diminta untuk memilih metode searching yang akan digunakan. Jika pengguna memilih metode Jump Search, program akan melakukan pencarian indeks menggunakan fungsi jump_search yang ada dalam program. Fungsi ini menggunakan metode Jump Search yang bekerja dengan cara membagi data menjadi beberapa blok dan mencari data pada setiap blok. Jika pengguna memilih metode Fibonacci Search, program akan melakukan pencarian indeks menggunakan fungsi fibonacci_search yang ada dalam program. Fungsi ini menggunakan metode Fibonacci Search yang bekerja dengan cara menggunakan deret fibonacci untuk mencari indeks dari data yang dicari.
+
+Setelah itu, program akan menampilkan hasil pencarian indeks dari setiap data yang dicari menggunakan metode yang telah dipilih. Jika data ditemukan, program akan menampilkan indeksnya. Selanjutnya, program akan menampilkan daftar data kembali dan meminta pengguna untuk menekan Enter untuk kembali ke menu utama. Jika pengguna memilih untuk keluar dari program, program akan berhenti.
+
 Library yang Digunakan
 
 os: digunakan untuk membersihkan console setiap kali program dijalankan.
