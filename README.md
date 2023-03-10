@@ -1,6 +1,9 @@
 # Program-Searching-Aditya-Dinata
 Nama : Aditya Dinata
+
 NIM : 2209116062
+
+Kelas : Sistem Informasi B 2022
 
 Program Searching Aditya Dinata
 
