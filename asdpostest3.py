@@ -26,33 +26,31 @@ def jump():
             i += 1
         return -1
 
-    var = ["Arsel", "Avivah", "Daiva", ["Wahyu", "Wibi"]]
-
-    print("\n   Daftar Data: ", var)
+    print("\n   Daftar Data: ", arr)
     time.sleep(1)
 
     # Cari Arsel
-    idx_arsel = jump_search(var, "Arsel")
+    idx_arsel = jump_search(arr, "Arsel")
     if idx_arsel != -1:
         print("Arsel di Index", idx_arsel)
 
     # Cari Avivah
-    idx_avivah = jump_search(var, "Avivah")
+    idx_avivah = jump_search(arr, "Avivah")
     if idx_avivah != -1:
         print("Avivah di Index", idx_avivah)
 
     # Cari Daiva
-    idx_daiva = jump_search(var, "Daiva")
+    idx_daiva = jump_search(arr, "Daiva")
     if idx_daiva != -1:
         print("Daiva di Index", idx_daiva)
 
     # Cari Wahyu
-    idx_wahyu = jump_search(var[3], "Wahyu")
+    idx_wahyu = jump_search(arr[3], "Wahyu")
     if idx_wahyu != -1:
         print("Wahyu di Index 3 pada kolom 0")
 
     # Cari Wibi
-    idx_wibi = jump_search(var[3], "Wibi")
+    idx_wibi = jump_search(arr[3], "Wibi")
     if idx_wibi != -1:
         print("Wibi di Index 3 pada kolom 1")
 
@@ -60,7 +58,7 @@ def jump():
     os.system("cls")
     time.sleep(1)
     print("\n   Daftar Data:")
-    for i in var:
+    for i in arr:
         time.sleep(1)
         print("\n   ", i)
     input("\n   Tekan Enter untuk kembali")
@@ -102,39 +100,38 @@ def fib():
         return -1
 
     # list data
-    var = ["Arsel", "Avivah", "Daiva", ["Wahyu", "Wibi"]]
 
     input("\n   Tekan Enter untuk melihat data satu per satu")
     os.system("cls")
     time.sleep(1)
     print("\n   Daftar Data:")
-    for i in var:
+    for i in arr:
         time.sleep(1)
         print("\n   ", i)
     input("\n   Tekan Enter untuk kembali")
 
     # Cari Arsel
-    idx_arsel = fibonacci_search(var, "Arsel")
+    idx_arsel = fibonacci_search(arr, "Arsel")
     if idx_arsel != -1:
         print("Arsel di Index", idx_arsel)
 
     # Cari Avivah
-    idx_avivah = fibonacci_search(var, "Avivah")
+    idx_avivah = fibonacci_search(arr, "Avivah")
     if idx_avivah != -1:
         print("Avivah di Index", idx_avivah)
 
     # Cari Daiva
-    idx_daiva = fibonacci_search(var, "Daiva")
+    idx_daiva = fibonacci_search(arr, "Daiva")
     if idx_daiva != -1:
         print("Daiva di Index", idx_daiva)
 
     # Cari Wahyu
-    idx_wahyu = fibonacci_search(var[3], "Wahyu")
+    idx_wahyu = fibonacci_search(arr[3], "Wahyu")
     if idx_wahyu != -1:
         print("Wahyu di Index 3 pada kolom 0")
 
     # Cari Wibi
-    idx_wibi = fibonacci_search(var[3], "Wibi")
+    idx_wibi = fibonacci_search(arr[3], "Wibi")
     if idx_wibi != -1:
         print("Wibi di Index 3 pada kolom 1")
 
