@@ -7,11 +7,14 @@ Program Searching Aditya Dinata
 Program ini adalah program untuk mencari indeks dari beberapa elemen yang terdapat dalam sebuah list menggunakan dua jenis algoritma pencarian, yaitu Jump Search dan Fibonacci Search. List yang digunakan dalam program ini adalah sebagai berikut: ["Arsel", "Avivah", "Daiva", ["Wahyu", "Wibi"]].
 
 Library yang Digunakan
-os: digunakan untuk membersihkan console setiap kali program dijalankan.
-time: digunakan untuk memberikan jeda atau delay antara satu output dengan output lainnya.
-math: digunakan untuk melakukan operasi matematika, seperti menghitung akar kuadrat dengan fungsi sqrt().
-Fungsi dan Algoritma yang Digunakan
 
+os: digunakan untuk membersihkan console setiap kali program dijalankan.
+
+time: digunakan untuk memberikan jeda atau delay antara satu output dengan output lainnya.
+
+math: digunakan untuk melakukan operasi matematika, seperti menghitung akar kuadrat dengan fungsi sqrt().
+
+Fungsi dan Algoritma yang Digunakan
 Fungsi jump()
 Fungsi ini digunakan untuk melakukan pencarian indeks dari elemen yang ada di dalam list menggunakan algoritma Jump Search.
 Algoritma Jump Search
