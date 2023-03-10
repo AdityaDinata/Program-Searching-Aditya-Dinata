@@ -15,9 +15,13 @@ time: digunakan untuk memberikan jeda atau delay antara satu output dengan outpu
 math: digunakan untuk melakukan operasi matematika, seperti menghitung akar kuadrat dengan fungsi sqrt().
 
 Fungsi dan Algoritma yang Digunakan
+
 Fungsi jump()
+
 Fungsi ini digunakan untuk melakukan pencarian indeks dari elemen yang ada di dalam list menggunakan algoritma Jump Search.
+
 Algoritma Jump Search
+
 Inisialisasi variabel jump dengan nilai akar kuadrat panjang list.
 Dapatkan indeks kanan dengan meminimumkan antara panjang list - 1 dan kiri + jump - 1.
 Lakukan pencarian data dengan melompati jump indeks indeks dari kiri ke kanan hingga data yang dicari tidak lebih besar dari data pada indeks kanan atau sudah melebihi panjang list.
@@ -25,8 +29,11 @@ Jika data yang dicari berada di antara indeks kiri dan kanan, maka lakukan penca
 Jika data yang dicari tidak ditemukan, kembalikan nilai -1.
 
 Fungsi fib()
+
 Fungsi ini digunakan untuk melakukan pencarian indeks dari elemen yang ada di dalam list menggunakan algoritma Fibonacci Search.
+
 Algoritma Fibonacci Search
+
 Inisialisasi variabel fib1 dengan nilai 1 dan fib2 dengan nilai 0.
 Lakukan iterasi untuk mendapatkan nilai bilangan fibonacci terdekat yang lebih besar atau sama dengan panjang list.
 Inisialisasi variabel offset dengan -1.
@@ -38,4 +45,5 @@ Jika data yang dicari ditemukan pada indeks yang valid, kembalikan nilai indeks 
 Jika data yang dicari tidak ditemukan, kembalikan nilai -1.
 
 Fungsi mulai()
+
 Fungsi ini digunakan untuk menampilkan menu dan meminta input dari pengguna untuk memilih jenis algoritma pencarian yang akan digunakan. Program akan terus berjalan dan menampilkan menu hingga pengguna memilih untuk keluar dari program.
